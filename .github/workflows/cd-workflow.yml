@@ -58,6 +58,6 @@ jobs:
       with:
         username: ${{github.actor}}
         password: ${{secrets.GITHUB_TOKEN}}
-        registry: docker.pkg.github.com
-        repository: Darckfast/github-actions-for-packages/tic-tac-toe
+        registry: docker.pkg.github.com 
+        repository: darckfast/github-actions-for-packages/tic-tac-toe
         tag_with_sha: true
